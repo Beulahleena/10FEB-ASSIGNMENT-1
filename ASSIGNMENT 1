@@ -1,0 +1,25 @@
+sno=int(input('enter sno'))
+sname=input('enter sname')
+sgroup=input('enter std group')
+sub1=int(input('enter eng marks'))
+sub2=int(input('enter hin marks'))
+sub3=int(input('enter computers marks'))
+sub4=int(input('enter ds marks'))
+sub5=int(input('enter os marks'))
+sub6=int(input('enter accounts marks'))
+if sub1>=35 and sub2>=35 and sub3>=35 and sub4>=35 and sub5>=35 and sub6>=35:
+     print('you passed your examination')
+else:
+     print('fail')
+     
+     OUTPUT:
+     enter sno 02                                                       
+enter sname BEULAH
+enter std group BCA
+enter eng marks 94
+enter hin marks 68
+enter computers marks 60
+enter ds marks69
+enter os marks 70
+enter accounts marks 50
+pass
